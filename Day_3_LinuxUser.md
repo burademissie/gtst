@@ -1,4 +1,4 @@
-                  what is a shell.
+# what is a shell.
 users communicate with the kernel by the shell.
 the Shell is command line interpreter. It translates commands entered by the user and converts them into a language that is understood by the kernel.
 - Bassed on their features there are many shells.
