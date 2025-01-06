@@ -1,20 +1,16 @@
 
-
-
-
-
-
-
-
-                sed / Stream Editor
+                # sed / Stream Editor
 A powerful command - line tool for parsing and transforming text in Linux.
 It processes files line by line making it efficient for large text processing tasks.
 Common Uses:
-    text substtitution and replacement.
-    deleting or selecting specific lines.
-    Efficient text manipulation for taskis like network information gathering or penetration testing logs.
 
-    syntax: sed [options] 'command' file
+    - text substtitution and replacement.
+    - deleting or selecting specific lines.
+    - Efficient text manipulation for taskis like network information gathering or penetration testing logs.
+
+    
+  syntax: sed [options] 'command' file
+  
     - Substitute or replace : sed 's/old/new/' file or 'S|old|new|'
     - use 'g' on the end todo replace if it finds the word more than 1 time in one line.'s/old/new/g'
     -delete: sed 'pattern/d' file
